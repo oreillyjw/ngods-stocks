@@ -17,6 +17,7 @@ RUN apt-get update && apt-get upgrade -y && \
       curl \
       unzip \
       make \
+      ca-certificates-java \
       openjdk-17-jdk \
     && rm -rf /var/lib/apt/lists/*
 
